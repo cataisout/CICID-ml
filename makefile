@@ -1,6 +1,6 @@
 install:
     pip install --upgrade pip &&\
-    pip install -r app/req.txt
+    	pip install -r app/req.txt
 
 format:
     black *.py
