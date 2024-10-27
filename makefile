@@ -3,7 +3,7 @@ install:
 		pip install -r app/req.txt
 
 format:
-	black *.py
+	black model/*.py
 
 train:
 	python model/train.py
